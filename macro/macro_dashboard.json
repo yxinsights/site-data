@@ -1,0 +1,1461 @@
+{
+ "schema": "yx_macro_dashboard/1",
+ "generated_at": "2026-11-05T13:50:00+00:00",
+ "sections": {
+  "factors": {
+   "as_of": "2026-11-04",
+   "hash": "a07a77a6ae01",
+   "method": "Each day's market move is scored as a rolling one-year z-score, then combined into three factors.",
+   "factors": [
+    {
+     "key": "risk_appetite",
+     "label": "Risk appetite",
+     "latest": 2.3,
+     "description": "Tracks how much risk markets are taking, from equity, high-yield credit, and crypto proxies, with equity volatility counting against it."
+    },
+    {
+     "key": "liquidity",
+     "label": "Liquidity",
+     "latest": 0.86,
+     "description": "Tracks how easy financial conditions are, from Treasury and inflation-protected bond proxies and high-yield credit, with a stronger dollar and yen counting against it."
+    },
+    {
+     "key": "inflation",
+     "label": "Inflation",
+     "latest": -0.07,
+     "description": "Tracks inflation pressure priced in markets, from energy, precious metals, industrial metals, and inflation-protected Treasury proxies."
+    }
+   ],
+   "regime": "Risk-On + Hard-Assets (USD Weak)",
+   "default_window": "1M",
+   "windows": [
+    "1M",
+    "3M"
+   ],
+   "history": [
+    {
+     "date": "2026-08-05",
+     "risk_appetite": -0.14,
+     "liquidity": 0.16,
+     "inflation": 0.59
+    },
+    {
+     "date": "2026-08-06",
+     "risk_appetite": -0.32,
+     "liquidity": -0.64,
+     "inflation": 0.13
+    },
+    {
+     "date": "2026-08-07",
+     "risk_appetite": 0.63,
+     "liquidity": 0.83,
+     "inflation": 0.19
+    },
+    {
+     "date": "2026-08-10",
+     "risk_appetite": -0.33,
+     "liquidity": -0.57,
+     "inflation": 0.64
+    },
+    {
+     "date": "2026-08-11",
+     "risk_appetite": -0.1,
+     "liquidity": 0.01,
+     "inflation": -0.06
+    },
+    {
+     "date": "2026-08-12",
+     "risk_appetite": 0.48,
+     "liquidity": -0.11,
+     "inflation": 0.06
+    },
+    {
+     "date": "2026-08-13",
+     "risk_appetite": 0.51,
+     "liquidity": 0.68,
+     "inflation": -0.33
+    },
+    {
+     "date": "2026-08-14",
+     "risk_appetite": -0.08,
+     "liquidity": -0.24,
+     "inflation": 0.12
+    },
+    {
+     "date": "2026-08-17",
+     "risk_appetite": -0.49,
+     "liquidity": -0.49,
+     "inflation": 0.29
+    },
+    {
+     "date": "2026-08-18",
+     "risk_appetite": -0.86,
+     "liquidity": 0.25,
+     "inflation": -0.42
+    },
+    {
+     "date": "2026-08-19",
+     "risk_appetite": 0.76,
+     "liquidity": 1.64,
+     "inflation": 0.73
+    },
+    {
+     "date": "2026-08-20",
+     "risk_appetite": -0.69,
+     "liquidity": -0.24,
+     "inflation": 0.39
+    },
+    {
+     "date": "2026-08-21",
+     "risk_appetite": 0.62,
+     "liquidity": -0.41,
+     "inflation": 0.09
+    },
+    {
+     "date": "2026-08-24",
+     "risk_appetite": -0.24,
+     "liquidity": 0.12,
+     "inflation": -0.11
+    },
+    {
+     "date": "2026-08-25",
+     "risk_appetite": 0.44,
+     "liquidity": 1.03,
+     "inflation": -0.01
+    },
+    {
+     "date": "2026-08-26",
+     "risk_appetite": -0.04,
+     "liquidity": -0.49,
+     "inflation": -0.45
+    },
+    {
+     "date": "2026-08-27",
+     "risk_appetite": 0.49,
+     "liquidity": -0.21,
+     "inflation": 0.13
+    },
+    {
+     "date": "2026-08-28",
+     "risk_appetite": -0.8,
+     "liquidity": -1.35,
+     "inflation": -1.04
+    },
+    {
+     "date": "2026-08-31",
+     "risk_appetite": -0.08,
+     "liquidity": 0.08,
+     "inflation": 0.18
+    },
+    {
+     "date": "2026-09-01",
+     "risk_appetite": -1.27,
+     "liquidity": -0.66,
+     "inflation": -0.29
+    },
+    {
+     "date": "2026-09-02",
+     "risk_appetite": 0.52,
+     "liquidity": -0.03,
+     "inflation": 0.32
+    },
+    {
+     "date": "2026-09-03",
+     "risk_appetite": 0.98,
+     "liquidity": 0.5,
+     "inflation": 0.46
+    },
+    {
+     "date": "2026-09-04",
+     "risk_appetite": -0.37,
+     "liquidity": -0.11,
+     "inflation": -0.24
+    },
+    {
+     "date": "2026-09-08",
+     "risk_appetite": -0.68,
+     "liquidity": -0.03,
+     "inflation": 0.13
+    },
+    {
+     "date": "2026-09-09",
+     "risk_appetite": -0.84,
+     "liquidity": -0.55,
+     "inflation": 0.28
+    },
+    {
+     "date": "2026-09-10",
+     "risk_appetite": -1.22,
+     "liquidity": -1.39,
+     "inflation": -0.71
+    },
+    {
+     "date": "2026-09-11",
+     "risk_appetite": 0.77,
+     "liquidity": -0.95,
+     "inflation": -0.51
+    },
+    {
+     "date": "2026-09-14",
+     "risk_appetite": -0.39,
+     "liquidity": -0.28,
+     "inflation": -0.45
+    },
+    {
+     "date": "2026-09-15",
+     "risk_appetite": -0.73,
+     "liquidity": -0.34,
+     "inflation": 0.36
+    },
+    {
+     "date": "2026-09-16",
+     "risk_appetite": -0.4,
+     "liquidity": -0.9,
+     "inflation": -0.78
+    },
+    {
+     "date": "2026-09-17",
+     "risk_appetite": 1.19,
+     "liquidity": 1.19,
+     "inflation": 0.55
+    },
+    {
+     "date": "2026-09-18",
+     "risk_appetite": -0.04,
+     "liquidity": -0.91,
+     "inflation": -0.12
+    },
+    {
+     "date": "2026-09-21",
+     "risk_appetite": 1.3,
+     "liquidity": 0.5,
+     "inflation": -0.04
+    },
+    {
+     "date": "2026-09-22",
+     "risk_appetite": 0.32,
+     "liquidity": -0.13,
+     "inflation": -0.04
+    },
+    {
+     "date": "2026-09-23",
+     "risk_appetite": -1.43,
+     "liquidity": -2.26,
+     "inflation": -0.72
+    },
+    {
+     "date": "2026-09-24",
+     "risk_appetite": -0.4,
+     "liquidity": -1.07,
+     "inflation": -0.13
+    },
+    {
+     "date": "2026-09-25",
+     "risk_appetite": 0.29,
+     "liquidity": 0.3,
+     "inflation": 0.05
+    },
+    {
+     "date": "2026-09-28",
+     "risk_appetite": -0.98,
+     "liquidity": -1.34,
+     "inflation": -1.02
+    },
+    {
+     "date": "2026-09-29",
+     "risk_appetite": -0.29,
+     "liquidity": -0.39,
+     "inflation": -0.08
+    },
+    {
+     "date": "2026-09-30",
+     "risk_appetite": -0.44,
+     "liquidity": -0.5,
+     "inflation": 0.04
+    },
+    {
+     "date": "2026-10-01",
+     "risk_appetite": 0.16,
+     "liquidity": 0.45,
+     "inflation": 0.36
+    },
+    {
+     "date": "2026-10-02",
+     "risk_appetite": 0.61,
+     "liquidity": -0.17,
+     "inflation": -0.36
+    },
+    {
+     "date": "2026-10-05",
+     "risk_appetite": 0.65,
+     "liquidity": -0.34,
+     "inflation": -0.13
+    },
+    {
+     "date": "2026-10-06",
+     "risk_appetite": 0.57,
+     "liquidity": 0.82,
+     "inflation": 0.27
+    },
+    {
+     "date": "2026-10-07",
+     "risk_appetite": -0.7,
+     "liquidity": -0.35,
+     "inflation": -0.33
+    },
+    {
+     "date": "2026-10-08",
+     "risk_appetite": -0.52,
+     "liquidity": 0.74,
+     "inflation": 0.18
+    },
+    {
+     "date": "2026-10-09",
+     "risk_appetite": 0.53,
+     "liquidity": 0.03,
+     "inflation": 0.33
+    },
+    {
+     "date": "2026-10-12",
+     "risk_appetite": -0.02,
+     "liquidity": -0.06,
+     "inflation": 0.11
+    },
+    {
+     "date": "2026-10-13",
+     "risk_appetite": -0.33,
+     "liquidity": 0.12,
+     "inflation": -0.08
+    },
+    {
+     "date": "2026-10-14",
+     "risk_appetite": -1.55,
+     "liquidity": 0.03,
+     "inflation": -0.46
+    },
+    {
+     "date": "2026-10-15",
+     "risk_appetite": 0.76,
+     "liquidity": 1.7,
+     "inflation": 0.55
+    },
+    {
+     "date": "2026-10-16",
+     "risk_appetite": -1.85,
+     "liquidity": 0.41,
+     "inflation": 0.3
+    },
+    {
+     "date": "2026-10-19",
+     "risk_appetite": 0.44,
+     "liquidity": -0.73,
+     "inflation": -0.23
+    },
+    {
+     "date": "2026-10-20",
+     "risk_appetite": 0.56,
+     "liquidity": 0.74,
+     "inflation": 0.02
+    },
+    {
+     "date": "2026-10-21",
+     "risk_appetite": 0.62,
+     "liquidity": 0.28,
+     "inflation": -0.03
+    },
+    {
+     "date": "2026-10-22",
+     "risk_appetite": -1.16,
+     "liquidity": 1.55,
+     "inflation": -0.34
+    },
+    {
+     "date": "2026-10-23",
+     "risk_appetite": -0.53,
+     "liquidity": -0.99,
+     "inflation": 0.14
+    },
+    {
+     "date": "2026-10-26",
+     "risk_appetite": 0.65,
+     "liquidity": 0.16,
+     "inflation": -0.07
+    },
+    {
+     "date": "2026-10-27",
+     "risk_appetite": 0.91,
+     "liquidity": 0.07,
+     "inflation": 0.21
+    },
+    {
+     "date": "2026-10-28",
+     "risk_appetite": 0.34,
+     "liquidity": 0.04,
+     "inflation": 0.25
+    },
+    {
+     "date": "2026-10-29",
+     "risk_appetite": 0.09,
+     "liquidity": 0.52,
+     "inflation": -0.34
+    },
+    {
+     "date": "2026-10-30",
+     "risk_appetite": -2.46,
+     "liquidity": 0.57,
+     "inflation": -0.64
+    },
+    {
+     "date": "2026-11-02",
+     "risk_appetite": -0.4,
+     "liquidity": -0.38,
+     "inflation": -0.29
+    },
+    {
+     "date": "2026-11-03",
+     "risk_appetite": 0.37,
+     "liquidity": -0.55,
+     "inflation": -0.43
+    },
+    {
+     "date": "2026-11-04",
+     "risk_appetite": 2.3,
+     "liquidity": 0.86,
+     "inflation": -0.07
+    }
+   ],
+   "source": "YX Insights"
+  },
+  "fomc": {
+   "as_of": "2026-10-28",
+   "hash": "491f3a7f1571",
+   "policy": {
+    "target_range": {
+     "lower": 3.75,
+     "upper": 4.0,
+     "unit": "%"
+    },
+    "last_decision": {
+     "date": "2026-10-28",
+     "action": "held"
+    },
+    "next_meeting": {
+     "start": "2026-12-08",
+     "date": "2026-12-09",
+     "projections": true
+    }
+   },
+   "sep": {
+    "meeting": "2026-09-16",
+    "columns": [
+     "2026",
+     "2027",
+     "2028",
+     "2029",
+     "Longer run"
+    ],
+    "column_keys": [
+     "2026",
+     "2027",
+     "2028",
+     "2029",
+     "longer_run"
+    ],
+    "medians": [
+     {
+      "key": "real_gdp",
+      "label": "Real GDP growth",
+      "unit": "%",
+      "values": {
+       "2026": 2.3,
+       "2027": 2.4,
+       "2028": 2.2,
+       "2029": 2.1,
+       "longer_run": 2.0
+      }
+     },
+     {
+      "key": "unemployment_rate",
+      "label": "Unemployment rate",
+      "unit": "%",
+      "values": {
+       "2026": 4.1,
+       "2027": 4.1,
+       "2028": 4.1,
+       "2029": 4.1,
+       "longer_run": 4.2
+      }
+     },
+     {
+      "key": "pce_inflation",
+      "label": "PCE inflation",
+      "unit": "%",
+      "values": {
+       "2026": 3.7,
+       "2027": 2.3,
+       "2028": 2.1,
+       "2029": 2.0,
+       "longer_run": 2.0
+      }
+     },
+     {
+      "key": "core_pce_inflation",
+      "label": "Core PCE inflation",
+      "unit": "%",
+      "values": {
+       "2026": 3.4,
+       "2027": 2.5,
+       "2028": 2.2,
+       "2029": 2.0,
+       "longer_run": null
+      }
+     },
+     {
+      "key": "fed_funds_rate",
+      "label": "Federal funds rate",
+      "unit": "%",
+      "values": {
+       "2026": 4.1,
+       "2027": 4.1,
+       "2028": 3.9,
+       "2029": 3.6,
+       "longer_run": 3.2
+      }
+     }
+    ]
+   },
+   "sep_previous": {
+    "meeting": "2026-06-17",
+    "medians": [
+     {
+      "key": "real_gdp",
+      "label": "Real GDP growth",
+      "unit": "%",
+      "values": {
+       "2026": 2.2,
+       "2027": 2.3,
+       "2028": 2.2,
+       "2029": null,
+       "longer_run": 2.0
+      }
+     },
+     {
+      "key": "unemployment_rate",
+      "label": "Unemployment rate",
+      "unit": "%",
+      "values": {
+       "2026": 4.3,
+       "2027": 4.3,
+       "2028": 4.2,
+       "2029": null,
+       "longer_run": 4.2
+      }
+     },
+     {
+      "key": "pce_inflation",
+      "label": "PCE inflation",
+      "unit": "%",
+      "values": {
+       "2026": 3.6,
+       "2027": 2.3,
+       "2028": 2.0,
+       "2029": null,
+       "longer_run": 2.0
+      }
+     },
+     {
+      "key": "core_pce_inflation",
+      "label": "Core PCE inflation",
+      "unit": "%",
+      "values": {
+       "2026": 3.3,
+       "2027": 2.5,
+       "2028": 2.1,
+       "2029": null,
+       "longer_run": null
+      }
+     },
+     {
+      "key": "fed_funds_rate",
+      "label": "Federal funds rate",
+      "unit": "%",
+      "values": {
+       "2026": 3.8,
+       "2027": 3.6,
+       "2028": 3.4,
+       "2029": null,
+       "longer_run": 3.1
+      }
+     }
+    ]
+   },
+   "source": "Federal Reserve, Summary of Economic Projections"
+  },
+  "treasury": {
+   "as_of": "2026-11-04",
+   "hash": "4904ac48f6f0",
+   "tenors": [
+    "3M",
+    "2Y",
+    "5Y",
+    "10Y",
+    "30Y"
+   ],
+   "unit": "%",
+   "spread_unit": "percentage points",
+   "curves": [
+    {
+     "key": "today",
+     "date": "2026-11-04",
+     "yields": {
+      "3M": 4.21,
+      "2Y": 4.58,
+      "5Y": 4.69,
+      "10Y": 4.9,
+      "30Y": 5.28
+     }
+    },
+    {
+     "key": "one_month_ago",
+     "date": "2026-10-02",
+     "yields": {
+      "3M": 4.19,
+      "2Y": 4.83,
+      "5Y": 5.06,
+      "10Y": 5.28,
+      "30Y": 5.63
+     }
+    },
+    {
+     "key": "one_year_ago",
+     "date": "2025-11-04",
+     "yields": {
+      "3M": 3.96,
+      "2Y": 3.58,
+      "5Y": 3.69,
+      "10Y": 4.1,
+      "30Y": 4.67
+     }
+    }
+   ],
+   "spreads": [
+    {
+     "key": "today",
+     "date": "2026-11-04",
+     "10Y_minus_2Y": 0.32,
+     "30Y_minus_2Y": 0.7
+    },
+    {
+     "key": "one_month_ago",
+     "date": "2026-10-02",
+     "10Y_minus_2Y": 0.45,
+     "30Y_minus_2Y": 0.8
+    },
+    {
+     "key": "one_year_ago",
+     "date": "2025-11-04",
+     "10Y_minus_2Y": 0.52,
+     "30Y_minus_2Y": 1.09
+    }
+   ],
+   "source": "US Treasury"
+  },
+  "indicators": {
+   "as_of": "2026-11-05",
+   "hash": "693c661684b9",
+   "groups": [
+    {
+     "key": "employment",
+     "label": "Employment",
+     "items": [
+      {
+       "key": "payrolls",
+       "label": "Nonfarm payrolls, monthly change",
+       "value": 29,
+       "unit": "thousand jobs",
+       "prior": 133,
+       "change": -104,
+       "ref_period": "September 2026",
+       "ref_date": "2026-09-01",
+       "released": "2026-10-02",
+       "next_release": "2026-11-06",
+       "z": null,
+       "spark": [
+        33,
+        134,
+        237,
+        -48,
+        42,
+        67,
+        108,
+        13,
+        -20,
+        64,
+        -70,
+        76,
+        -140,
+        41,
+        -17,
+        160,
+        -156,
+        214,
+        148,
+        63,
+        31,
+        -10,
+        133,
+        29
+       ],
+       "source": "Bureau of Labor Statistics"
+      },
+      {
+       "key": "unemployment_rate",
+       "label": "Unemployment rate",
+       "value": 4.2,
+       "unit": "%",
+       "prior": 4.1,
+       "change": 0.1,
+       "ref_period": "September 2026",
+       "ref_date": "2026-09-01",
+       "released": "2026-10-02",
+       "next_release": "2026-11-06",
+       "z": null,
+       "spark": [
+        4.1,
+        4.1,
+        4.2,
+        4.1,
+        4.0,
+        4.2,
+        4.2,
+        4.2,
+        4.3,
+        4.1,
+        4.3,
+        4.3,
+        4.4,
+        4.5,
+        4.4,
+        4.3,
+        4.4,
+        4.3,
+        4.3,
+        4.3,
+        4.2,
+        4.1,
+        4.1,
+        4.2
+       ],
+       "source": "Bureau of Labor Statistics"
+      },
+      {
+       "key": "average_hourly_earnings",
+       "label": "Average hourly earnings, year on year",
+       "value": 3.02,
+       "unit": "%",
+       "prior": 3.11,
+       "change": -0.09,
+       "ref_period": "September 2026",
+       "ref_date": "2026-09-01",
+       "released": "2026-10-02",
+       "next_release": "2026-11-06",
+       "z": null,
+       "spark": [
+        4.05,
+        4.18,
+        4.08,
+        3.97,
+        4.11,
+        4.21,
+        3.91,
+        3.98,
+        3.86,
+        3.96,
+        3.98,
+        3.85,
+        3.92,
+        3.93,
+        3.73,
+        3.66,
+        3.7,
+        3.43,
+        3.57,
+        3.34,
+        3.38,
+        3.21,
+        3.11,
+        3.02
+       ],
+       "source": "Bureau of Labor Statistics"
+      },
+      {
+       "key": "jobless_claims",
+       "label": "Initial jobless claims",
+       "value": 189,
+       "unit": "thousand",
+       "prior": 195,
+       "change": -6,
+       "ref_period": "Week ending 31 October 2026",
+       "ref_date": "2026-10-31",
+       "released": "2026-11-05",
+       "next_release": "2026-11-12",
+       "z": null,
+       "spark": [
+        212,
+        225,
+        230,
+        227,
+        216,
+        217,
+        217,
+        209,
+        189,
+        198,
+        200,
+        212,
+        207,
+        204,
+        207,
+        207,
+        198,
+        198,
+        199,
+        198,
+        200,
+        195,
+        195,
+        189
+       ],
+       "source": "US Department of Labor"
+      },
+      {
+       "key": "jolts_openings",
+       "label": "Job openings (JOLTS)",
+       "value": 7.52,
+       "unit": "million",
+       "prior": 7.19,
+       "change": 0.33,
+       "ref_period": "September 2026",
+       "ref_date": "2026-09-01",
+       "released": "2026-11-03",
+       "next_release": "2026-12-01",
+       "z": null,
+       "spark": [
+        7.38,
+        7.57,
+        7.29,
+        7.43,
+        7.24,
+        6.95,
+        7.1,
+        7.31,
+        7.2,
+        7.09,
+        6.92,
+        7.17,
+        7.17,
+        6.85,
+        6.55,
+        7.24,
+        6.92,
+        6.89,
+        7.58,
+        7.54,
+        7.18,
+        7.33,
+        7.19,
+        7.52
+       ],
+       "source": "Bureau of Labor Statistics"
+      }
+     ]
+    },
+    {
+     "key": "inflation",
+     "label": "Inflation",
+     "items": [
+      {
+       "key": "cpi",
+       "label": "CPI, year on year",
+       "value": 3.74,
+       "unit": "%",
+       "prior": 3.4,
+       "change": 0.34,
+       "ref_period": "September 2026",
+       "ref_date": "2026-09-01",
+       "released": "2026-10-14",
+       "next_release": "2026-11-10",
+       "z": null,
+       "spark": [
+        2.44,
+        2.6,
+        2.75,
+        2.89,
+        3.0,
+        2.82,
+        2.39,
+        2.31,
+        2.35,
+        2.67,
+        2.7,
+        2.92,
+        3.01,
+        2.74,
+        2.68,
+        2.39,
+        2.41,
+        3.26,
+        3.81,
+        4.25,
+        3.53,
+        3.36,
+        3.4,
+        3.74
+       ],
+       "source": "Bureau of Labor Statistics"
+      },
+      {
+       "key": "core_cpi",
+       "label": "Core CPI, year on year",
+       "value": 2.56,
+       "unit": "%",
+       "prior": 2.45,
+       "change": 0.12,
+       "ref_period": "September 2026",
+       "ref_date": "2026-09-01",
+       "released": "2026-10-14",
+       "next_release": "2026-11-10",
+       "z": null,
+       "spark": [
+        3.31,
+        3.33,
+        3.32,
+        3.24,
+        3.26,
+        3.12,
+        2.79,
+        2.78,
+        2.79,
+        2.93,
+        3.06,
+        3.11,
+        3.02,
+        2.63,
+        2.64,
+        2.5,
+        2.46,
+        2.6,
+        2.75,
+        2.85,
+        2.59,
+        2.48,
+        2.45,
+        2.56
+       ],
+       "source": "Bureau of Labor Statistics"
+      },
+      {
+       "key": "ppi",
+       "label": "PPI final demand, year on year",
+       "value": 6.35,
+       "unit": "%",
+       "prior": 5.58,
+       "change": 0.76,
+       "ref_period": "September 2026",
+       "ref_date": "2026-09-01",
+       "released": "2026-10-15",
+       "next_release": "2026-11-13",
+       "z": null,
+       "spark": [
+        2.84,
+        2.89,
+        3.44,
+        3.79,
+        3.4,
+        3.16,
+        2.4,
+        2.72,
+        2.43,
+        3.23,
+        2.69,
+        3.05,
+        2.83,
+        3.15,
+        3.09,
+        3.04,
+        3.35,
+        4.28,
+        5.69,
+        5.89,
+        5.59,
+        4.9,
+        5.58,
+        6.35
+       ],
+       "source": "Bureau of Labor Statistics"
+      },
+      {
+       "key": "pce",
+       "label": "PCE prices, year on year",
+       "value": 3.65,
+       "unit": "%",
+       "prior": 3.44,
+       "change": 0.2,
+       "ref_period": "September 2026",
+       "ref_date": "2026-09-01",
+       "released": "2026-10-29",
+       "next_release": "2026-11-25",
+       "z": null,
+       "spark": [
+        2.41,
+        2.49,
+        2.65,
+        2.63,
+        2.57,
+        2.26,
+        2.33,
+        2.46,
+        2.61,
+        2.59,
+        2.69,
+        2.78,
+        2.66,
+        2.71,
+        2.78,
+        2.73,
+        2.8,
+        3.37,
+        3.57,
+        3.82,
+        3.45,
+        3.37,
+        3.44,
+        3.65
+       ],
+       "source": "Bureau of Economic Analysis"
+      },
+      {
+       "key": "core_pce",
+       "label": "Core PCE prices, year on year",
+       "value": 3.12,
+       "unit": "%",
+       "prior": 3.03,
+       "change": 0.09,
+       "ref_period": "September 2026",
+       "ref_date": "2026-09-01",
+       "released": "2026-10-29",
+       "next_release": "2026-11-25",
+       "z": null,
+       "spark": [
+        2.9,
+        2.87,
+        2.9,
+        2.81,
+        2.82,
+        2.56,
+        2.68,
+        2.79,
+        2.83,
+        2.84,
+        2.85,
+        2.82,
+        2.7,
+        2.72,
+        2.87,
+        2.94,
+        2.96,
+        3.11,
+        3.08,
+        3.16,
+        3.04,
+        3.0,
+        3.03,
+        3.12
+       ],
+       "source": "Bureau of Economic Analysis"
+      }
+     ]
+    },
+    {
+     "key": "rates",
+     "label": "Rates",
+     "items": [
+      {
+       "key": "effective_fed_funds",
+       "label": "Effective federal funds rate",
+       "value": 3.88,
+       "unit": "%",
+       "prior": 3.88,
+       "change": 0.0,
+       "ref_period": "3 November 2026",
+       "ref_date": "2026-11-03",
+       "released": "2026-11-04",
+       "next_release": null,
+       "z": null,
+       "spark": [
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88
+       ],
+       "source": "Federal Reserve Bank of New York"
+      },
+      {
+       "key": "treasury_10y",
+       "label": "10-year Treasury yield",
+       "value": 4.9,
+       "unit": "%",
+       "prior": 4.95,
+       "change": -0.05,
+       "ref_period": "4 November 2026",
+       "ref_date": "2026-11-04",
+       "released": "2026-11-04",
+       "next_release": null,
+       "z": null,
+       "spark": [
+        5.24,
+        5.28,
+        5.31,
+        5.27,
+        5.28,
+        5.22,
+        5.24,
+        5.21,
+        5.19,
+        5.1,
+        5.09,
+        5.15,
+        5.12,
+        5.13,
+        4.96,
+        5.0,
+        5.0,
+        4.99,
+        5.05,
+        4.98,
+        4.94,
+        4.91,
+        4.95,
+        4.9
+       ],
+       "source": "US Treasury"
+      },
+      {
+       "key": "real_10y",
+       "label": "10-year real yield (TIPS)",
+       "value": 2.64,
+       "unit": "%",
+       "prior": 2.65,
+       "change": -0.01,
+       "ref_period": "4 November 2026",
+       "ref_date": "2026-11-04",
+       "released": "2026-11-04",
+       "next_release": null,
+       "z": null,
+       "spark": [
+        2.88,
+        2.92,
+        2.95,
+        2.91,
+        2.92,
+        2.87,
+        2.91,
+        2.88,
+        2.84,
+        2.78,
+        2.74,
+        2.8,
+        2.77,
+        2.76,
+        2.64,
+        2.66,
+        2.66,
+        2.64,
+        2.67,
+        2.63,
+        2.6,
+        2.62,
+        2.65,
+        2.64
+       ],
+       "source": "US Treasury"
+      },
+      {
+       "key": "breakeven_10y",
+       "label": "10-year breakeven inflation",
+       "value": 2.26,
+       "unit": "%",
+       "prior": 2.3,
+       "change": -0.04,
+       "ref_period": "4 November 2026",
+       "ref_date": "2026-11-04",
+       "released": "2026-11-04",
+       "next_release": null,
+       "z": null,
+       "spark": [
+        2.36,
+        2.36,
+        2.36,
+        2.36,
+        2.36,
+        2.35,
+        2.33,
+        2.33,
+        2.35,
+        2.32,
+        2.35,
+        2.35,
+        2.35,
+        2.37,
+        2.32,
+        2.34,
+        2.34,
+        2.35,
+        2.38,
+        2.35,
+        2.34,
+        2.29,
+        2.3,
+        2.26
+       ],
+       "source": "US Treasury",
+       "note": "10-year Treasury yield minus the 10-year TIPS yield"
+      }
+     ]
+    },
+    {
+     "key": "consumer",
+     "label": "Consumer",
+     "items": [
+      {
+       "key": "consumer_sentiment",
+       "label": "University of Michigan consumer sentiment",
+       "value": 48.0,
+       "unit": "index",
+       "prior": 48.1,
+       "change": -0.1,
+       "ref_period": "October 2026",
+       "ref_date": "2026-10-01",
+       "released": null,
+       "next_release": null,
+       "z": null,
+       "spark": [
+        71.8,
+        74.0,
+        71.7,
+        64.7,
+        57.0,
+        52.2,
+        52.2,
+        60.7,
+        61.7,
+        58.2,
+        55.1,
+        53.6,
+        51.0,
+        52.9,
+        56.4,
+        56.6,
+        53.3,
+        49.8,
+        44.8,
+        49.5,
+        55.2,
+        51.7,
+        48.1,
+        48.0
+       ],
+       "source": "University of Michigan"
+      },
+      {
+       "key": "retail_sales",
+       "label": "Retail sales, month on month",
+       "value": 0.77,
+       "unit": "%",
+       "prior": 1.29,
+       "change": -0.52,
+       "ref_period": "September 2026",
+       "ref_date": "2026-09-01",
+       "released": "2026-10-15",
+       "next_release": "2026-11-17",
+       "z": null,
+       "spark": [
+        0.86,
+        0.57,
+        0.89,
+        -0.68,
+        -0.48,
+        1.61,
+        0.1,
+        -1.43,
+        0.93,
+        0.92,
+        0.3,
+        0.08,
+        -0.02,
+        0.67,
+        0.11,
+        -0.62,
+        0.87,
+        1.66,
+        0.59,
+        1.04,
+        0.2,
+        -0.41,
+        1.29,
+        0.77
+       ],
+       "source": "Census Bureau"
+      }
+     ]
+    },
+    {
+     "key": "housing_activity",
+     "label": "Housing and activity",
+     "items": [
+      {
+       "key": "mortgage_30y",
+       "label": "30-year mortgage rate",
+       "value": 7.24,
+       "unit": "%",
+       "prior": 7.32,
+       "change": -0.08,
+       "ref_period": "Week ending 29 October 2026",
+       "ref_date": "2026-10-29",
+       "released": "2026-10-29",
+       "next_release": "2026-11-05",
+       "z": null,
+       "spark": [
+        6.51,
+        6.53,
+        6.48,
+        6.52,
+        6.47,
+        6.49,
+        6.43,
+        6.49,
+        6.55,
+        6.58,
+        6.66,
+        6.69,
+        6.67,
+        6.65,
+        6.66,
+        6.71,
+        6.76,
+        6.95,
+        7.03,
+        7.28,
+        7.4,
+        7.4,
+        7.32,
+        7.24
+       ],
+       "source": "Freddie Mac"
+      },
+      {
+       "key": "building_permits",
+       "label": "Building permits, annual rate",
+       "value": 1398,
+       "unit": "thousand",
+       "prior": 1403,
+       "change": -5,
+       "ref_period": "September 2026",
+       "ref_date": "2026-09-01",
+       "released": "2026-10-27",
+       "next_release": "2026-11-18",
+       "z": null,
+       "spark": [
+        1435,
+        1512,
+        1467,
+        1463,
+        1446,
+        1492,
+        1445,
+        1416,
+        1399,
+        1400,
+        1347,
+        1444,
+        1418,
+        1414,
+        1482,
+        1393,
+        1540,
+        1363,
+        1423,
+        1410,
+        1374,
+        1433,
+        1403,
+        1398
+       ],
+       "source": "Census Bureau"
+      },
+      {
+       "key": "industrial_production",
+       "label": "Industrial production, month on month",
+       "value": 0.66,
+       "unit": "%",
+       "prior": 0.06,
+       "change": 0.6,
+       "ref_period": "September 2026",
+       "ref_date": "2026-09-01",
+       "released": "2026-10-16",
+       "next_release": "2026-11-17",
+       "z": null,
+       "spark": [
+        -0.34,
+        -0.18,
+        1.04,
+        -0.26,
+        1.03,
+        -0.06,
+        0.09,
+        -0.16,
+        0.51,
+        0.41,
+        -0.26,
+        0.04,
+        -0.44,
+        -0.18,
+        0.45,
+        -0.45,
+        0.86,
+        -0.17,
+        0.83,
+        0.14,
+        0.23,
+        0.23,
+        0.06,
+        0.66
+       ],
+       "source": "Federal Reserve Board"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}
