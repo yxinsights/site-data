@@ -1,6 +1,6 @@
 {
  "schema": "yx_regression/1",
- "generated_at": "2026-11-07T10:09:38Z",
+ "generated_at": "2026-11-07T11:33:03Z",
  "prices_to": "2026-11-07",
  "assets": [
   {
@@ -33,7 +33,7 @@
    "keep": "power_law",
    "r2": 0.546,
    "last_date": "2026-11-07",
-   "last_price": 75975.25
+   "last_price": 75939.95
   },
   {
    "ticker": "ETHUSD",
@@ -41,7 +41,7 @@
    "keep": "power_law",
    "r2": 0.541,
    "last_date": "2026-11-07",
-   "last_price": 2245.24
+   "last_price": 2241.82
   }
  ]
 }
