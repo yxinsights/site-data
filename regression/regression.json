@@ -1,7 +1,7 @@
 {
  "schema": "yx_regression/1",
- "generated_at": "2026-11-14T06:30:01Z",
- "prices_to": "2026-11-14",
+ "generated_at": "2026-11-15T06:30:01Z",
+ "prices_to": "2026-11-15",
  "assets": [
   {
    "ticker": "SPY",
@@ -32,16 +32,16 @@
    "name": "Bitcoin",
    "keep": "power_law",
    "r2": 0.547,
-   "last_date": "2026-11-14",
-   "last_price": 67378.81
+   "last_date": "2026-11-15",
+   "last_price": 64597.29
   },
   {
    "ticker": "ETHUSD",
    "name": "Ethereum",
    "keep": "power_law",
-   "r2": 0.539,
-   "last_date": "2026-11-14",
-   "last_price": 1905.12
+   "r2": 0.538,
+   "last_date": "2026-11-15",
+   "last_price": 1803.4
   }
  ]
 }
