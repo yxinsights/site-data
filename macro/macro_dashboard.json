@@ -1,6 +1,6 @@
 {
  "schema": "yx_macro_dashboard/1",
- "generated_at": "2026-11-16T13:50:00+00:00",
+ "generated_at": "2026-11-17T13:50:00+00:00",
  "sections": {
   "factors": {
    "as_of": "2026-11-13",
@@ -592,8 +592,8 @@
    "source": "Federal Reserve, Summary of Economic Projections"
   },
   "treasury": {
-   "as_of": "2026-11-13",
-   "hash": "603268ab579e",
+   "as_of": "2026-11-16",
+   "hash": "fcc88f4675ad",
    "tenors": [
     "3M",
     "2Y",
@@ -606,63 +606,63 @@
    "curves": [
     {
      "key": "today",
-     "date": "2026-11-13",
+     "date": "2026-11-16",
      "yields": {
-      "3M": 4.32,
-      "2Y": 4.88,
-      "5Y": 4.98,
-      "10Y": 5.15,
-      "30Y": 5.47
+      "3M": 4.34,
+      "2Y": 4.83,
+      "5Y": 4.93,
+      "10Y": 5.12,
+      "30Y": 5.46
      }
     },
     {
      "key": "one_month_ago",
-     "date": "2026-10-13",
+     "date": "2026-10-16",
      "yields": {
       "3M": 4.26,
-      "2Y": 4.79,
-      "5Y": 5.0,
-      "10Y": 5.21,
-      "30Y": 5.56
+      "2Y": 4.74,
+      "5Y": 4.89,
+      "10Y": 5.09,
+      "30Y": 5.43
      }
     },
     {
      "key": "one_year_ago",
-     "date": "2025-11-13",
+     "date": "2025-11-14",
      "yields": {
-      "3M": 3.96,
-      "2Y": 3.58,
-      "5Y": 3.71,
-      "10Y": 4.11,
-      "30Y": 4.7
+      "3M": 3.95,
+      "2Y": 3.62,
+      "5Y": 3.74,
+      "10Y": 4.14,
+      "30Y": 4.74
      }
     }
    ],
    "spreads": [
     {
      "key": "today",
-     "date": "2026-11-13",
-     "10Y_minus_2Y": 0.27,
-     "30Y_minus_2Y": 0.59
+     "date": "2026-11-16",
+     "10Y_minus_2Y": 0.29,
+     "30Y_minus_2Y": 0.63
     },
     {
      "key": "one_month_ago",
-     "date": "2026-10-13",
-     "10Y_minus_2Y": 0.42,
-     "30Y_minus_2Y": 0.77
+     "date": "2026-10-16",
+     "10Y_minus_2Y": 0.35,
+     "30Y_minus_2Y": 0.69
     },
     {
      "key": "one_year_ago",
-     "date": "2025-11-13",
-     "10Y_minus_2Y": 0.53,
+     "date": "2025-11-14",
+     "10Y_minus_2Y": 0.52,
      "30Y_minus_2Y": 1.12
     }
    ],
    "source": "US Treasury"
   },
   "indicators": {
-   "as_of": "2026-11-13",
-   "hash": "e582c7e0195a",
+   "as_of": "2026-11-17",
+   "hash": "d439e5111907",
    "groups": [
     {
      "key": "employment",
@@ -1087,9 +1087,9 @@
        "unit": "%",
        "prior": 3.88,
        "change": 0.0,
-       "ref_period": "12 November 2026",
-       "ref_date": "2026-11-12",
-       "released": "2026-11-13",
+       "ref_period": "13 November 2026",
+       "ref_date": "2026-11-13",
+       "released": "2026-11-16",
        "next_release": null,
        "z": null,
        "spark": [
@@ -1123,17 +1123,16 @@
       {
        "key": "treasury_10y",
        "label": "10-year Treasury yield",
-       "value": 5.15,
+       "value": 5.12,
        "unit": "%",
-       "prior": 5.1,
-       "change": 0.05,
-       "ref_period": "13 November 2026",
-       "ref_date": "2026-11-13",
-       "released": "2026-11-13",
+       "prior": 5.15,
+       "change": -0.03,
+       "ref_period": "16 November 2026",
+       "ref_date": "2026-11-16",
+       "released": "2026-11-16",
        "next_release": null,
        "z": null,
        "spark": [
-        5.24,
         5.21,
         5.19,
         5.1,
@@ -1156,24 +1155,24 @@
         4.88,
         4.98,
         5.1,
-        5.15
+        5.15,
+        5.12
        ],
        "source": "US Treasury"
       },
       {
        "key": "real_10y",
        "label": "10-year real yield (TIPS)",
-       "value": 2.91,
+       "value": 2.92,
        "unit": "%",
-       "prior": 2.86,
-       "change": 0.05,
-       "ref_period": "13 November 2026",
-       "ref_date": "2026-11-13",
-       "released": "2026-11-13",
+       "prior": 2.91,
+       "change": 0.01,
+       "ref_period": "16 November 2026",
+       "ref_date": "2026-11-16",
+       "released": "2026-11-16",
        "next_release": null,
        "z": null,
        "spark": [
-        2.91,
         2.88,
         2.84,
         2.78,
@@ -1196,24 +1195,24 @@
         2.66,
         2.78,
         2.86,
-        2.91
+        2.91,
+        2.92
        ],
        "source": "US Treasury"
       },
       {
        "key": "breakeven_10y",
        "label": "10-year breakeven inflation",
-       "value": 2.24,
+       "value": 2.2,
        "unit": "%",
        "prior": 2.24,
-       "change": 0.0,
-       "ref_period": "13 November 2026",
-       "ref_date": "2026-11-13",
-       "released": "2026-11-13",
+       "change": -0.04,
+       "ref_period": "16 November 2026",
+       "ref_date": "2026-11-16",
+       "released": "2026-11-16",
        "next_release": null,
        "z": null,
        "spark": [
-        2.33,
         2.33,
         2.35,
         2.32,
@@ -1236,7 +1235,8 @@
         2.22,
         2.2,
         2.24,
-        2.24
+        2.24,
+        2.2
        ],
        "source": "US Treasury",
        "note": "10-year Treasury yield minus the 10-year TIPS yield"
@@ -1290,17 +1290,16 @@
       {
        "key": "retail_sales",
        "label": "Retail sales, month on month",
-       "value": 0.77,
+       "value": 0.21,
        "unit": "%",
-       "prior": 1.29,
-       "change": -0.52,
-       "ref_period": "September 2026",
-       "ref_date": "2026-09-01",
-       "released": "2026-10-15",
-       "next_release": "2026-11-17",
+       "prior": 0.83,
+       "change": -0.62,
+       "ref_period": "October 2026",
+       "ref_date": "2026-10-01",
+       "released": "2026-11-17",
+       "next_release": "2026-12-16",
        "z": null,
        "spark": [
-        0.86,
         0.57,
         0.89,
         -0.68,
@@ -1311,9 +1310,9 @@
         0.93,
         0.92,
         0.3,
-        0.08,
-        -0.02,
-        0.67,
+        0.03,
+        -0.03,
+        0.72,
         0.11,
         -0.62,
         0.87,
@@ -1322,8 +1321,9 @@
         1.04,
         0.2,
         -0.41,
-        1.29,
-        0.77
+        1.45,
+        0.83,
+        0.21
        ],
        "source": "Census Bureau"
       }
