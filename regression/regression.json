@@ -1,47 +1,47 @@
 {
  "schema": "yx_regression/1",
- "generated_at": "2026-11-19T06:30:01Z",
- "prices_to": "2026-11-19",
+ "generated_at": "2026-11-20T06:30:01Z",
+ "prices_to": "2026-11-20",
  "assets": [
   {
    "ticker": "SPY",
    "name": "S&P 500",
    "keep": "exponential",
    "r2": 0.86,
-   "last_date": "2026-11-18",
-   "last_price": 730.2
+   "last_date": "2026-11-19",
+   "last_price": 715.87
   },
   {
    "ticker": "QQQ",
    "name": "Nasdaq 100",
    "keep": "exponential",
    "r2": 0.821,
-   "last_date": "2026-11-18",
-   "last_price": 659.51
+   "last_date": "2026-11-19",
+   "last_price": 645.04
   },
   {
    "ticker": "TSLA",
    "name": "Tesla",
    "keep": "exponential",
-   "r2": 0.636,
-   "last_date": "2026-11-18",
-   "last_price": 383.72
+   "r2": 0.635,
+   "last_date": "2026-11-19",
+   "last_price": 374.41
   },
   {
    "ticker": "BTCUSD",
    "name": "Bitcoin",
    "keep": "power_law",
    "r2": 0.548,
-   "last_date": "2026-11-19",
-   "last_price": 63425.0
+   "last_date": "2026-11-20",
+   "last_price": 61891.2
   },
   {
    "ticker": "ETHUSD",
    "name": "Ethereum",
    "keep": "power_law",
    "r2": 0.536,
-   "last_date": "2026-11-19",
-   "last_price": 1800.49
+   "last_date": "2026-11-20",
+   "last_price": 1738.72
   }
  ]
 }
