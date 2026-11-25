@@ -1,68 +1,38 @@
 {
  "schema": "yx_macro_dashboard/1",
- "generated_at": "2026-11-24T14:49:09+00:00",
+ "generated_at": "2026-11-25T13:50:00+00:00",
  "sections": {
   "factors": {
-   "as_of": "2026-11-17",
-   "hash": "f8216969fe77",
+   "as_of": "2026-11-24",
+   "hash": "5fe04e49a3c5",
    "method": "Each day's market move is scored as a rolling one-year z-score, then combined into three factors.",
    "factors": [
     {
      "key": "risk_appetite",
      "label": "Risk appetite",
-     "latest": -1.43,
+     "latest": -0.36,
      "description": "Tracks how much risk markets are taking, from equity, high-yield credit, and crypto proxies, with equity volatility counting against it."
     },
     {
      "key": "liquidity",
      "label": "Liquidity",
-     "latest": 0.35,
+     "latest": 0.3,
      "description": "Tracks how easy financial conditions are, from Treasury and inflation-protected bond proxies and high-yield credit, with a stronger dollar and yen counting against it."
     },
     {
      "key": "inflation",
      "label": "Inflation",
-     "latest": 0.16,
+     "latest": -0.74,
      "description": "Tracks inflation pressure priced in markets, from energy, precious metals, industrial metals, and inflation-protected Treasury proxies."
     }
    ],
-   "regime": "Positioning / Vol Unwind",
+   "regime": "Risk-Off (Mixed)",
    "default_window": "1M",
    "windows": [
     "1M",
     "3M"
    ],
    "history": [
-    {
-     "date": "2026-08-18",
-     "risk_appetite": -0.86,
-     "liquidity": 0.25,
-     "inflation": -0.42
-    },
-    {
-     "date": "2026-08-19",
-     "risk_appetite": 0.76,
-     "liquidity": 1.64,
-     "inflation": 0.73
-    },
-    {
-     "date": "2026-08-20",
-     "risk_appetite": -0.69,
-     "liquidity": -0.24,
-     "inflation": 0.39
-    },
-    {
-     "date": "2026-08-21",
-     "risk_appetite": 0.62,
-     "liquidity": -0.41,
-     "inflation": 0.09
-    },
-    {
-     "date": "2026-08-24",
-     "risk_appetite": -0.24,
-     "liquidity": 0.12,
-     "inflation": -0.11
-    },
     {
      "date": "2026-08-25",
      "risk_appetite": 0.44,
@@ -422,6 +392,36 @@
      "risk_appetite": -1.43,
      "liquidity": 0.35,
      "inflation": 0.16
+    },
+    {
+     "date": "2026-11-18",
+     "risk_appetite": 0.13,
+     "liquidity": 0.11,
+     "inflation": -1.26
+    },
+    {
+     "date": "2026-11-19",
+     "risk_appetite": -2.24,
+     "liquidity": 0.13,
+     "inflation": -0.22
+    },
+    {
+     "date": "2026-11-20",
+     "risk_appetite": -3.56,
+     "liquidity": 0.89,
+     "inflation": -0.45
+    },
+    {
+     "date": "2026-11-23",
+     "risk_appetite": 3.9,
+     "liquidity": -0.36,
+     "inflation": 0.28
+    },
+    {
+     "date": "2026-11-24",
+     "risk_appetite": -0.36,
+     "liquidity": 0.3,
+     "inflation": -0.74
     }
    ],
    "source": "YX Insights"
@@ -592,8 +592,8 @@
    "source": "Federal Reserve, Summary of Economic Projections"
   },
   "treasury": {
-   "as_of": "2026-11-23",
-   "hash": "5aba990917d2",
+   "as_of": "2026-11-24",
+   "hash": "82dd408aff97",
    "tenors": [
     "3M",
     "2Y",
@@ -606,13 +606,13 @@
    "curves": [
     {
      "key": "today",
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "yields": {
-      "3M": 4.37,
+      "3M": 4.36,
       "2Y": 4.63,
-      "5Y": 4.74,
-      "10Y": 4.92,
-      "30Y": 5.29
+      "5Y": 4.69,
+      "10Y": 4.91,
+      "30Y": 5.3
      }
     },
     {
@@ -628,22 +628,22 @@
     },
     {
      "key": "one_year_ago",
-     "date": "2025-11-21",
+     "date": "2025-11-24",
      "yields": {
-      "3M": 3.9,
-      "2Y": 3.51,
-      "5Y": 3.62,
-      "10Y": 4.06,
-      "30Y": 4.71
+      "3M": 3.91,
+      "2Y": 3.46,
+      "5Y": 3.61,
+      "10Y": 4.04,
+      "30Y": 4.68
      }
     }
    ],
    "spreads": [
     {
      "key": "today",
-     "date": "2026-11-23",
-     "10Y_minus_2Y": 0.29,
-     "30Y_minus_2Y": 0.66
+     "date": "2026-11-24",
+     "10Y_minus_2Y": 0.28,
+     "30Y_minus_2Y": 0.67
     },
     {
      "key": "one_month_ago",
@@ -653,16 +653,16 @@
     },
     {
      "key": "one_year_ago",
-     "date": "2025-11-21",
-     "10Y_minus_2Y": 0.55,
-     "30Y_minus_2Y": 1.2
+     "date": "2025-11-24",
+     "10Y_minus_2Y": 0.58,
+     "30Y_minus_2Y": 1.22
     }
    ],
    "source": "US Treasury"
   },
   "indicators": {
-   "as_of": "2026-11-24",
-   "hash": "553c9ef28fab",
+   "as_of": "2026-11-25",
+   "hash": "09e73660b50d",
    "groups": [
     {
      "key": "employment",
@@ -791,17 +791,16 @@
       {
        "key": "jobless_claims",
        "label": "Initial jobless claims",
-       "value": 203,
+       "value": 189,
        "unit": "thousand",
        "prior": 202,
-       "change": 1,
-       "ref_period": "Week ending 14 November 2026",
-       "ref_date": "2026-11-14",
-       "released": "2026-11-19",
-       "next_release": "2026-11-25",
+       "change": -13,
+       "ref_period": "Week ending 21 November 2026",
+       "ref_date": "2026-11-21",
+       "released": "2026-11-25",
+       "next_release": "2026-12-03",
        "z": null,
        "spark": [
-        230,
         227,
         216,
         217,
@@ -824,7 +823,8 @@
         195,
         191,
         202,
-        203
+        202,
+        189
        ],
        "source": "US Department of Labor"
       },
@@ -997,17 +997,16 @@
       {
        "key": "pce",
        "label": "PCE prices, year on year",
-       "value": 3.65,
+       "value": 3.84,
        "unit": "%",
-       "prior": 3.44,
-       "change": 0.2,
-       "ref_period": "September 2026",
-       "ref_date": "2026-09-01",
-       "released": "2026-10-29",
-       "next_release": "2026-11-25",
+       "prior": 3.67,
+       "change": 0.18,
+       "ref_period": "October 2026",
+       "ref_date": "2026-10-01",
+       "released": "2026-11-25",
+       "next_release": "2026-12-23",
        "z": null,
        "spark": [
-        2.41,
         2.49,
         2.65,
         2.63,
@@ -1029,25 +1028,25 @@
         3.82,
         3.45,
         3.37,
-        3.44,
-        3.65
+        3.46,
+        3.67,
+        3.84
        ],
        "source": "Bureau of Economic Analysis"
       },
       {
        "key": "core_pce",
        "label": "Core PCE prices, year on year",
-       "value": 3.12,
+       "value": 3.26,
        "unit": "%",
-       "prior": 3.03,
-       "change": 0.09,
-       "ref_period": "September 2026",
-       "ref_date": "2026-09-01",
-       "released": "2026-10-29",
-       "next_release": "2026-11-25",
+       "prior": 3.14,
+       "change": 0.12,
+       "ref_period": "October 2026",
+       "ref_date": "2026-10-01",
+       "released": "2026-11-25",
+       "next_release": "2026-12-23",
        "z": null,
        "spark": [
-        2.9,
         2.87,
         2.9,
         2.81,
@@ -1069,8 +1068,9 @@
         3.16,
         3.04,
         3.0,
-        3.03,
-        3.12
+        3.05,
+        3.14,
+        3.26
        ],
        "source": "Bureau of Economic Analysis"
       }
@@ -1123,17 +1123,16 @@
       {
        "key": "treasury_10y",
        "label": "10-year Treasury yield",
-       "value": 4.92,
+       "value": 4.91,
        "unit": "%",
        "prior": 4.92,
-       "change": 0.0,
-       "ref_period": "23 November 2026",
-       "ref_date": "2026-11-23",
-       "released": "2026-11-23",
+       "change": -0.01,
+       "ref_period": "24 November 2026",
+       "ref_date": "2026-11-24",
+       "released": "2026-11-24",
        "next_release": null,
        "z": null,
        "spark": [
-        5.12,
         5.13,
         4.96,
         5.0,
@@ -1156,7 +1155,8 @@
         5.07,
         5.04,
         4.92,
-        4.92
+        4.92,
+        4.91
        ],
        "source": "US Treasury"
       },
@@ -1165,15 +1165,14 @@
        "label": "10-year real yield (TIPS)",
        "value": 2.79,
        "unit": "%",
-       "prior": 2.77,
-       "change": 0.02,
-       "ref_period": "23 November 2026",
-       "ref_date": "2026-11-23",
-       "released": "2026-11-23",
+       "prior": 2.79,
+       "change": 0.0,
+       "ref_period": "24 November 2026",
+       "ref_date": "2026-11-24",
+       "released": "2026-11-24",
        "next_release": null,
        "z": null,
        "spark": [
-        2.77,
         2.76,
         2.64,
         2.66,
@@ -1196,6 +1195,7 @@
         2.88,
         2.88,
         2.77,
+        2.79,
         2.79
        ],
        "source": "US Treasury"
@@ -1203,17 +1203,16 @@
       {
        "key": "breakeven_10y",
        "label": "10-year breakeven inflation",
-       "value": 2.13,
+       "value": 2.12,
        "unit": "%",
-       "prior": 2.15,
-       "change": -0.02,
-       "ref_period": "23 November 2026",
-       "ref_date": "2026-11-23",
-       "released": "2026-11-23",
+       "prior": 2.13,
+       "change": -0.01,
+       "ref_period": "24 November 2026",
+       "ref_date": "2026-11-24",
+       "released": "2026-11-24",
        "next_release": null,
        "z": null,
        "spark": [
-        2.35,
         2.37,
         2.32,
         2.34,
@@ -1236,7 +1235,8 @@
         2.19,
         2.16,
         2.15,
-        2.13
+        2.13,
+        2.12
        ],
        "source": "US Treasury",
        "note": "10-year Treasury yield minus the 10-year TIPS yield"
@@ -1418,37 +1418,37 @@
        "label": "Industrial production, month on month",
        "value": -0.43,
        "unit": "%",
-       "prior": 0.73,
-       "change": -1.16,
+       "prior": 0.6,
+       "change": -1.03,
        "ref_period": "October 2026",
        "ref_date": "2026-10-01",
-       "released": "2026-11-17",
-       "next_release": "2026-11-24",
+       "released": "2026-11-24",
+       "next_release": "2026-12-16",
        "z": null,
        "spark": [
-        -0.18,
-        1.04,
-        -0.26,
-        1.03,
-        -0.06,
-        0.09,
-        -0.16,
-        0.51,
-        0.41,
-        -0.26,
-        0.04,
-        -0.44,
-        -0.18,
-        0.45,
-        -0.45,
-        0.86,
-        -0.17,
+        0.01,
         0.83,
-        0.11,
-        0.27,
-        0.19,
-        -0.07,
-        0.73,
+        0.13,
+        0.59,
+        0.03,
+        -0.11,
+        -0.24,
+        0.47,
+        0.24,
+        -0.36,
+        0.08,
+        -0.41,
+        -0.13,
+        0.26,
+        -0.37,
+        0.69,
+        0.14,
+        0.47,
+        0.14,
+        0.2,
+        0.22,
+        -0.14,
+        0.6,
         -0.43
        ],
        "source": "Federal Reserve Board"
